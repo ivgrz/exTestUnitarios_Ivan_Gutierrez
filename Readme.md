@@ -19,6 +19,9 @@ Formato del `Readme` *1 punto*
 # Preguntas:
 
 ### 1. En el código, hay un error, ¿lo pudiste comprobar en los test? Plantea la solución
+No se verifica la longitud de la cadena del DNI, por lo que se puede escribir cualquier cadena de texto.
+
+Se deberia realizar una comprobación previa a la longitud de la cadena de texto, para que solo acepte cadenas de texto que cumplan con las condiciones de un DNI normal.
 
 
 
@@ -27,3 +30,6 @@ Formato del `Readme` *1 punto*
 
 
 Habría que cambiar la longitud de la cadena de texto en el test para que pueda comprobar que vaya acorde a la de un DNI real, usando la funcion de `AssertEquals` con un entero que simbolice la longitud maxima esperada.
+
+
+
