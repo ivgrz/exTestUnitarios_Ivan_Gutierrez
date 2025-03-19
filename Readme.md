@@ -15,3 +15,15 @@ Entrega tu repositorio con el código y los test. Además un `Readme` explicando
 Formato del `Readme` *1 punto*
 
 ---
+
+# Preguntas:
+
+### 1. En el código, hay un error, ¿lo pudiste comprobar en los test? Plantea la solución
+
+
+
+
+### 2. Si no hubiera una comprobación previamente encuanto a la longitud de la `string` del DNI, ¿Qué hay que cambiar en los tests para que comprueben estos casos?
+
+
+Habría que cambiar la longitud de la cadena de texto en el test para que pueda comprobar que vaya acorde a la de un DNI real, usando la funcion de `AssertEquals` con un entero que simbolice la longitud maxima esperada.
